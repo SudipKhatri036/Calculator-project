@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+    <script
+      src="https://kit.fontawesome.com/0ba6a4d109.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="main">
+        <div class="header">
+          <h1>Calculator</h1>
+          <button class="btn btn-toggle">
+            Dark <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+        <div class="calculator">
+          <input type="text" class="display" disabled />
+
+          <div class="grid">
+            <div class="top-1 three-col">
+              <button class="cal-btn clear">AC</button>
+              <button class="cal-btn hl">/</button>
+              <button class="cal-btn hl delete-char">
+                <i class="fa-solid fa-delete-left"></i>
+              </button>
+            </div>
+            <div class="top-2 four-col">
+              <button class="cal-btn">6</button>
+              <button class="cal-btn">7</button>
+              <button class="cal-btn">8</button>
+              <button class="cal-btn hl">x</button>
+            </div>
+            <div class="top-3 four-col">
+              <button class="cal-btn">4</button>
+              <button class="cal-btn">5</button>
+              <button class="cal-btn">6</button>
+              <button class="cal-btn hl">-</button>
+            </div>
+            <div class="top-4 four-col">
+              <button class="cal-btn">1</button>
+              <button class="cal-btn">2</button>
+              <button class="cal-btn">3</button>
+              <button class="cal-btn hl">+</button>
+            </div>
+            <div class="top-5 four-col">
+              <button class="cal-btn">00</button>
+              <button class="cal-btn">0</button>
+              <button class="cal-btn">.</button>
+              <button class="cal-btn hl equal">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
