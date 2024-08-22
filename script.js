@@ -9,9 +9,8 @@ if (
   window.matchMedia("(prefers-color-scheme: dark)").matches
 ) {
   mainContainerEl.classList.add("dark");
-} else {
-mainContainerEl.classList.remove("dark");
-}
+toggleBtn.innerHTML = `Light <i class="fa-solid fa-sun"></i>`;
+} 
 
 // Eventlistener for theme toggling
 toggleBtn.addEventListener("click", function () {
