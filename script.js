@@ -9,6 +9,8 @@ if (
   window.matchMedia("(prefers-color-scheme: dark)").matches
 ) {
   mainContainerEl.classList.add("dark");
+} else {
+mainContainerEl.classList.remove("dark");
 }
 
 // Eventlistener for theme toggling
