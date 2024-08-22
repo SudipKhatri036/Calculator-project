@@ -8,11 +8,10 @@ if (
   window.matchMedia &&
   window.matchMedia("(prefers-color-scheme: dark)").matches
 ) {
-  // dark mode
   mainContainerEl.classList.add("dark");
 }
 
-// Eventlistener for them toggling
+// Eventlistener for theme toggling
 toggleBtn.addEventListener("click", function () {
   mainContainerEl.classList.toggle("dark");
   if (mainContainerEl.classList.contains("dark")) {
